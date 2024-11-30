@@ -178,33 +178,6 @@ body.dark-mode {
   color: #00bfff; /* Add a color change effect on hover */
 }
 
-/* Dark/Light Mode Button */
-#mode-toggle {
-  position: fixed;
-  top: 10px; /* Position it near the top */
-  right: 10px; /* Position it in the right corner */
-  background-color: #fff;
-  border: none;
-  border-radius: 50%;
-  font-size: 1.5rem;
-  cursor: pointer;
-  padding: 10px;
-  transition: background-color 0.3s, color 0.3s;
-}
-
-#mode-toggle.dark-mode {
-  background-color: #333;
-  color: #fff;
-}
-
-#mode-toggle.dark-mode:hover {
-  background-color: #444;
-}
-
-body.dark-mode p, body.dark-mode h1 {
-  color: #fff;
-}
-
 /* New Styles for "How to Play" Panel */
 .how-to-panel {
   display: flex;
