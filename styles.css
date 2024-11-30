@@ -204,3 +204,45 @@ body.dark-mode {
 body.dark-mode p, body.dark-mode h1 {
   color: #fff;
 }
+
+/* New Styles for "How to Play" Panel */
+.how-to-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: left;
+  background-color: #f5f5f5; /* Light background for better readability */
+  border: 1px solid #e0e0e0;
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(200, 200, 200, 0.5);
+  padding: 20px;
+  width: 300px;
+  font-family: 'Arial', sans-serif;
+}
+
+.how-to-panel h2 {
+  margin-bottom: 15px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.how-to-panel ul {
+  list-style-type: disc;
+  margin-left: 20px;
+}
+
+.how-to-panel li {
+  margin: 5px 0;
+  font-size: 0.9rem;
+}
+
+.how-to-panel li strong {
+  color: #007bff;
+}
+
+.how-to-panel ul ul {
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
